@@ -25,7 +25,9 @@ defineProps({
 });
 </script>
 <template>
-  <header class="grid xl:grid-cols-[1fr_auto] justify-items-center xl:justify-items-normal xl:grid-rows-[1fr_auto] xl:auto-rows-min gap-4 py-8 px-4 sm:p-4">
+  <header
+    class="grid xl:auto-cols-max xl:justify-between justify-items-center xl:justify-items-normal xl:grid-rows-[1fr_auto] xl:auto-rows-min gap-4 py-8 px-4 sm:p-4"
+  >
     <div class="flex flex-col xl:flex-row items-center gap-2 xl:gap-4">
       <a class="font-gochi px-4 py-2 inline-block rounded-xl bg-zinc-800 text-white text-4xl text-center">{{ logo }}</a>
       <h1 class="text-2xl font-bold text-zinc-800">{{ name }}</h1>
